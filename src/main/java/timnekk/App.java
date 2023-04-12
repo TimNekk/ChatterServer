@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.ParameterException;
+import timnekk.commands.StartCommand;
 
 @Command(name = "chatter-server", subcommands = {
         StartCommand.class }, mixinStandardHelpOptions = true, description = "Chatter server", abbreviateSynopsis = true)
@@ -14,6 +15,7 @@ public class App implements Runnable {
 
     @Override
     public void run() {
+        logger.info("Please specify a subcommand. Use --help for more information.");
     }
 
     public static void main(String[] args) {
