@@ -1,9 +1,6 @@
-<h1 align="center">
-  Chatter Server
-  <br>
-</h1>
-
-<h4 align="center">Server-side for <a href="https://github.com/TimNekk/Chatter">Chatter</a></h4>
+<div align="center">
+  <img align="center" src="https://socialify.git.ci/TimNekk/ChatterServer/image?description=1&font=Inter&language=1&name=1&pattern=Plus&theme=Light" alt="Chatter" width="640" height="320" />
+</div>
 
 ## Overview
 
